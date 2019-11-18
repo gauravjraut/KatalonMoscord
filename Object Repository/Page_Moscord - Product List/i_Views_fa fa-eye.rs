@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;height-full js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;height-full ng-scope&quot;]/div[1]/div[@class=&quot;template-shadow-panel&quot;]/div[2]/div[1]/div[@class=&quot;ng-scope&quot;]/nav[@class=&quot;main-menu ng-scope&quot;]/ul[1]/li[2]/div[@class=&quot;nav-text&quot;]/i[@class=&quot;fa fa-eye&quot;]</value>
+      <value>/html[@class=&quot;height-full js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;height-full ng-scope&quot;]/div[1]/div[@class=&quot;template-shadow-panel&quot;]/div[2]/div[1]/div[@class=&quot;ng-scope&quot;]/nav[@class=&quot;main-menu ng-scope&quot;]/ul[1]/li[2]/div[@class=&quot;nav-text&quot;]/i[@class=&quot;fa fa-eye&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -18,7 +18,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dev.moscord.com/')
 
-WebUI.setText(findTestObject('Page_Moscord - login/input_Email Id_email'), 'qa@berge.com')
+WebUI.setText(findTestObject('Page_Moscord - login/input_Email Id_email'), 'anand@berge.com')
 
 WebUI.setEncryptedText(findTestObject('Page_Moscord - login/input_Password_password'), 'lRjbE94itQ1Uo/YgcigLEg==')
 
@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Page_Moscord - Product List/button_ Add To cart'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/a_CART  (5)'))
+WebUI.click(findTestObject('Page_Moscord - Product List/i_CART_fa fa-shopping-cart'))
 
 WebUI.delay(5)
 
@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Object Repository/Page_Moscord - order-preview/butto
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Moscord - order-preview/span_qaberge berge'))
+WebUI.click(findTestObject('Page_Moscord - Product List/span_Ananda Naphade'))
 
 WebUI.click(findTestObject('Page_Moscord - order-preview/a_Log out'))
 

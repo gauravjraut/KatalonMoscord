@@ -18,19 +18,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dev.moscord.com/')
 
-WebUI.setText(findTestObject('Page_Moscord - login/input_Email Id_email'), 'qa@berge.com')
+WebUI.setText(findTestObject('Object Repository/Page_Moscord - login/input_Email Id_email'), 'anand@berge.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Moscord - login/input_Password_password'), 'lRjbE94itQ1Uo/YgcigLEg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moscord - login/input_Password_password'), 'lRjbE94itQ1Uo/YgcigLEg==')
 
-WebUI.click(findTestObject('Page_Moscord - login/button_Login'))
-
-WebUI.delay(10)
-
-WebUI.selectOptionByValue(findTestObject('Page_Moscord - Product List/select_5075100'), 'number:75', true)
+WebUI.click(findTestObject('Object Repository/Page_Moscord - login/button_Login'))
 
 WebUI.delay(10)
 
-WebUI.selectOptionByValue(findTestObject('Page_Moscord - Product List/select_5075100'), 'number:100', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moscord - Product List/select_5075100'), 'number:75', true)
+
+WebUI.delay(10)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moscord - Product List/select_5075100'), 'number:100', 
+    true)
 
 WebUI.delay(10)
 
@@ -38,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/div__l
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_Moscord - Product List/div_ Add To cart_first-triangle prev-triangle'))
+WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/div_ Add To cart_first-triangle prev-triangle'))
 
 WebUI.delay(10)
 
@@ -46,9 +47,9 @@ WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/div_ A
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_Moscord - Product List/span_qaberge berge'))
+WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/span_Ananda Naphade'))
 
-WebUI.click(findTestObject('Page_Moscord - Product List/a_Log out'))
+WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/a_Log out'))
 
 WebUI.closeBrowser()
 

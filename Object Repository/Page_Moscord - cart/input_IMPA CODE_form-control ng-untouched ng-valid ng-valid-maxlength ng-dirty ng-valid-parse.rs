@@ -6,11 +6,15 @@
    <elementGuidId>07781ff3-8eb9-447c-af5f-e8f65c3c165f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;form-control ng-pristine ng-valid ng-valid-maxlength ng-touched&quot;][count(. | //*[@type = '792425' and @placeholder = 'Search IMPA code' and @ng-maxlength = '6' and @maxlength = '6']) = count(//*[@type = '792425' and @placeholder = 'Search IMPA code' and @ng-maxlength = '6' and @maxlength = '6'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>v</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>792425</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,14 +38,14 @@
       <value>Search IMPA code</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-maxlength</name>
       <type>Main</type>
       <value>6</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
@@ -76,11 +80,11 @@
       <value>form-control ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;myForm&quot;)/div[@class=&quot;form-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;search-impa&quot;]/div[@class=&quot;form-group col-md-6&quot;]/input[@class=&quot;form-control ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse&quot;]</value>
+      <value>//*[@class=&quot;form-control ng-pristine ng-valid ng-valid-maxlength ng-touched&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

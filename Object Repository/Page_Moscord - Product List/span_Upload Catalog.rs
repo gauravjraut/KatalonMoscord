@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Product List'])[1]/following::span[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class=&quot;fa fa-upload&quot;][count(. | //*[(text() = 'Upload Catalog' or . = 'Upload Catalog')]) = count(//*[(text() = 'Upload Catalog' or . = 'Upload Catalog')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,11 +38,11 @@
       <value>Upload Catalog</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;height-full js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;height-full ng-scope&quot;]/div[1]/div[@class=&quot;template-shadow-panel&quot;]/div[2]/div[1]/div[@class=&quot;ng-scope&quot;]/nav[@class=&quot;main-menu ng-scope&quot;]/ul[1]/li[@class=&quot;has-subnav ng-scope&quot;]/a[1]/span[@class=&quot;nav-text ng-scope&quot;]</value>
+      <value>//*[@class=&quot;fa fa-upload&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

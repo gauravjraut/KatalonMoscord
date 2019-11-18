@@ -31,14 +31,22 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Moscord - P
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moscord - Product List/select_DefaultCodesDetailsPrices'), 
     'codes', true)
 
+WebUI.delay(3)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moscord - Product List/select_DefaultCodesDetailsPrices'), 
     'details', true)
+
+WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moscord - Product List/select_DefaultCodesDetailsPrices'), 
     'prices', true)
 
+WebUI.delay(3)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moscord - Product List/select_DefaultCodesDetailsPrices'), 
     'mainView', true)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/span_test buyer'))
 

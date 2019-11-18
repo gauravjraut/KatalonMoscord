@@ -101,7 +101,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ab, ce, findia, Zip/Pin: 112233'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='aa, bd, etest, Zip/Pin: 123456'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,5 +116,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ab, ce, findia, Zip/Pin: 112233'])[1]/preceding::input[1]</value>
    </webElementXpaths>
 </WebElementEntity>

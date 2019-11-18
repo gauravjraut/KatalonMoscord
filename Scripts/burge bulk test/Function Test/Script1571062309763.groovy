@@ -18,7 +18,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dev.moscord.com/')
 
-WebUI.setText(findTestObject('Page_Moscord - login/input_Email Id_email'), 'qa@berge.com')
+WebUI.setText(findTestObject('Page_Moscord - login/input_Email Id_email'), 'anand@berge.com')
 
 WebUI.setEncryptedText(findTestObject('Page_Moscord - login/input_Password_password'), 'lRjbE94itQ1Uo/YgcigLEg==')
 
@@ -28,11 +28,19 @@ WebUI.delay(10)
 
 WebUI.selectOptionByValue(findTestObject('Page_Moscord - Product List/select_DefaultCodesDetailsPrices'), 'codes', true)
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('Page_Moscord - Product List/select_DefaultCodesDetailsPrices'), 'details', true)
+
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Page_Moscord - Product List/select_DefaultCodesDetailsPrices'), 'prices', true)
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('Page_Moscord - Product List/select_DefaultCodesDetailsPrices'), 'mainView', true)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Moscord - Product List/img_All Ports_cursor-pointer-show'))
 
@@ -42,7 +50,7 @@ WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/img_Al
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/span_qaberge berge'))
+WebUI.click(findTestObject('Page_Moscord - Product List/span_Ananda Naphade'))
 
 WebUI.click(findTestObject('Page_Moscord - Product List/a_Log out'))
 

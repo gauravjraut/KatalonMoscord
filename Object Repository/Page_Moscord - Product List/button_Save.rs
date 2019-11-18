@@ -110,4 +110,11 @@
       <type>Main</type>
       <value>//div[3]/button[2]</value>
    </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks'])[1]/following::button[2]</value>
+   </webElementXpaths>
 </WebElementEntity>

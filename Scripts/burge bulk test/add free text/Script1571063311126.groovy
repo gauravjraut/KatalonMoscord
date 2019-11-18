@@ -16,53 +16,55 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://dev.moscord.com/')
+WebUI.navigateToUrl('https://dev.moscord.com/#/login')
 
-WebUI.setText(findTestObject('Page_Moscord - login/input_Email Id_email'), 'qa@berge.com')
+WebUI.setText(findTestObject('Object Repository/Page_Moscord - login/input_Email Id_email'), 'anand@berge.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Moscord - login/input_Password_password'), 'lRjbE94itQ1Uo/YgcigLEg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Moscord - login/input_Password_password'), 'lRjbE94itQ1Uo/YgcigLEg==')
 
-WebUI.click(findTestObject('Page_Moscord - login/span_Login'))
-
-WebUI.delay(10)
-
-WebUI.verifyElementClickable(findTestObject('Page_Moscord - Product List/button_ Add To cart'))
-
-WebUI.click(findTestObject('Page_Moscord - Product List/button_ Add To cart'))
+WebUI.click(findTestObject('Object Repository/Page_Moscord - login/button_Login'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_Moscord - Product List/i_CART_fa fa-shopping-cart'))
+WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/button_ Add To cart'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/i_CART_fa fa-shopping-cart_1'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_Moscord - cart/button_ Add Free Text Item'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Page_Moscord - cart/input_IMPA CODE_form-control ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse_1'), 
+    '7')
+
+WebUI.setText(findTestObject('Object Repository/Page_Moscord - cart/input_IMPA CODE_form-control ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse_2'), 
+    '79')
+
+WebUI.setText(findTestObject('Object Repository/Page_Moscord - cart/input_IMPA CODE_form-control ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse_3'), 
+    '792')
+
+WebUI.setText(findTestObject('Object Repository/Page_Moscord - cart/input_IMPA CODE_form-control ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse_4'), 
+    '7924')
+
+WebUI.setText(findTestObject('Object Repository/Page_Moscord - cart/input_IMPA CODE_form-control ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse_5'), 
+    '79242')
+
+WebUI.setText(findTestObject('Object Repository/Page_Moscord - cart/input_IMPA CODE_form-control ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse_6'), 
+    '792425')
 
 WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Page_Moscord - cart/button_ Add Free Text Item'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moscord - cart/input_IMPA CODE_form-control ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse'), 
-    '792425')
-
-WebUI.setText(findTestObject('Object Repository/Page_Moscord - cart/input_IMPA CODE_form-control ng-untouched ng-valid ng-valid-maxlength ng-dirty ng-valid-parse'), 
-    '792425')
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Moscord - cart/button_ Add Free Text Item'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moscord - cart/button_ Add Free Text Item'))
-
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_Moscord - cart/button_Send Request'))
+WebUI.click(findTestObject('Object Repository/Page_Moscord - order-preview/span_Ananda Naphade'))
 
-WebUI.delay(10)
-
-WebUI.waitForElementNotClickable(findTestObject('Page_Moscord - order-preview/button_Download Request now'), 0)
-
-WebUI.click(findTestObject('Page_Moscord - order-preview/button_Download Request now'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page_Moscord - order-preview/span_qaberge berge'))
-
-WebUI.click(findTestObject('Page_Moscord - order-preview/a_Log out'))
+WebUI.click(findTestObject('Object Repository/Page_Moscord - order-preview/a_Log out'))
 
 WebUI.closeBrowser()
 

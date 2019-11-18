@@ -6,11 +6,15 @@
    <elementGuidId>958bb104-e64b-476c-81af-707bb5453597</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = '+ Add Free Text Item' or . = '+ Add Free Text Item')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@value='back'])[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,13 +71,6 @@
       <name>text</name>
       <type>Main</type>
       <value>+ Add Free Text Item</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;page-wrapper&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;left-width-full ng-scope&quot;]/div[@class=&quot;group&quot;]/div[2]/div[1]/button[@class=&quot;back-btn ng-scope&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

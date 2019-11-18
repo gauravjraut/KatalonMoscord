@@ -26,18 +26,6 @@ WebUI.click(findTestObject('Object Repository/Page_Moscord - login/span_Login'))
 
 WebUI.delay(5)
 
-WebUI.waitForElementClickable(findTestObject('Page_Moscord - Product List/a_Actions'), 0)
-
-WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/i_Suppliers_fa fa-arrow-down ng-scope'))
-
-WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/a_Test Supplier'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/a_CLEAR ALL'))
-
-WebUI.delay(5)
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moscord - Product List/select_5075100'), 'number:75', true)
 
 WebUI.delay(5)
@@ -59,7 +47,7 @@ WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/button
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/span_test buyer'))
+WebUI.click(findTestObject('Page_Moscord - Product List/span_test buyer'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/a_Log out'))
 
