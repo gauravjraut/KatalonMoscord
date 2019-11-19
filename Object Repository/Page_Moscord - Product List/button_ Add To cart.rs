@@ -6,12 +6,12 @@
    <elementGuidId>cf02d810-5f20-41ca-9c3b-28c9f30edb7d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='1571049498709-0-uiGrid-000C-cell']/div/div/button</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@class=&quot;back-btn btn-primary ng-scope&quot;][count(. | //*[(text() = '+ Add To cart' or . = '+ Add To cart')]) = count(//*[(text() = '+ Add To cart' or . = '+ Add To cart')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='1571049498709-0-uiGrid-000C-cell']/div/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

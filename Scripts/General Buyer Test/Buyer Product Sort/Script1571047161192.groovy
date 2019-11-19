@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/button
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_Moscord - Product List/span_test buyer'))
+WebUI.click(findTestObject('Object Repository/Page_Moscord - cart/span_Test Buyer'))
 
 WebUI.click(findTestObject('Object Repository/Page_Moscord - Product List/a_Log out'))
 
